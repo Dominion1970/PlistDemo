@@ -12,4 +12,7 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+- (IBAction)savePlist:(id)sender;
+- (IBAction)loadPlist:(id)sender;
+
 @end
